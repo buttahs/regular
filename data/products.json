@@ -1,0 +1,59 @@
+{
+  "updatedAt": "2026-07-28T12:30:00+01:00",
+  "dataStatus": "demo",
+  "retailers": ["Tesco", "Sainsbury’s", "Waitrose", "Asda"],
+  "products": [
+    {
+      "id": "cluck",
+      "icon": "🌱",
+      "brand": "Vegetarian Butcher",
+      "name": "What the Cluck",
+      "size": "160g",
+      "prices": {
+        "Tesco": { "standard": 4.00, "loyalty": null, "scheme": null },
+        "Sainsbury’s": { "standard": 3.15, "loyalty": 2.50, "scheme": "Nectar" },
+        "Waitrose": { "standard": 4.50, "loyalty": null, "scheme": null },
+        "Asda": { "standard": 3.50, "loyalty": null, "scheme": null }
+      }
+    },
+    {
+      "id": "beyond",
+      "icon": "🍔",
+      "brand": "Beyond Meat",
+      "name": "Beyond Burgers",
+      "size": "226g",
+      "prices": {
+        "Tesco": { "standard": 4.00, "loyalty": 3.00, "scheme": "Clubcard" },
+        "Sainsbury’s": { "standard": 4.00, "loyalty": null, "scheme": null },
+        "Waitrose": { "standard": 4.25, "loyalty": null, "scheme": null },
+        "Asda": { "standard": 3.50, "loyalty": null, "scheme": null }
+      }
+    },
+    {
+      "id": "oatly",
+      "icon": "🥛",
+      "brand": "Oatly",
+      "name": "Barista Edition",
+      "size": "1L",
+      "prices": {
+        "Tesco": { "standard": 2.10, "loyalty": null, "scheme": null },
+        "Sainsbury’s": { "standard": 2.20, "loyalty": null, "scheme": null },
+        "Waitrose": { "standard": 2.00, "loyalty": null, "scheme": null },
+        "Asda": { "standard": 1.50, "loyalty": null, "scheme": null }
+      }
+    },
+    {
+      "id": "coffee",
+      "icon": "☕",
+      "brand": "Lavazza",
+      "name": "Qualità Rossa Coffee",
+      "size": "250g",
+      "prices": {
+        "Tesco": { "standard": 5.25, "loyalty": null, "scheme": null },
+        "Sainsbury’s": { "standard": 5.50, "loyalty": 4.00, "scheme": "Nectar" },
+        "Waitrose": { "standard": 5.50, "loyalty": null, "scheme": null },
+        "Asda": { "standard": 4.75, "loyalty": null, "scheme": null }
+      }
+    }
+  ]
+}
